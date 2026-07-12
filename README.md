@@ -1,10 +1,5 @@
 # Sistema de Monitoreo IoT basado en LoRa para Fermentación de Cacao
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-completado-brightgreen.svg)
-![Platform](https://img.shields.io/badge/platform-Node--RED-red.svg)
-![LLM](https://img.shields.io/badge/LLM-Qwen%202.5-orange.svg)
-
 Trabajo de Integración Curricular (TIC) — Escuela Politécnica Nacional, Ecuador.
 
 ## Descripción
@@ -24,14 +19,14 @@ Sistema de monitoreo diseñado para supervisar el proceso de fermentación del c
 
 ## Características principales
 
-- **Arquitectura IoT en cuatro capas**: percepción, red, soporte y aplicación.
-- **Comunicación LoRaWAN** en banda US915, apropiada para Ecuador según ARCOTEL.
-- **HMI con cuatro perfiles de usuario**: Agricultor, Jefe de planta, Técnico LoRa y Administrador.
-- **Modo dual de operación**: simulado y real, con datos del ensayo complementario.
-- **Sistema híbrido de análisis**: reglas heurísticas cuantitativas + Qwen 2.5 vía Ollama.
-- **Alarmas diferenciadas por dominio**: proceso y comunicación separadas por rol.
-- **Trazabilidad académica**: cada recomendación cita el criterio cuantitativo que la justifica.
-- **Diseño HMI bajo norma ISA-101** de alto desempeño.
+- Arquitectura IoT en cuatro capas: percepción, red, soporte y aplicación.
+- Comunicación LoRaWAN en banda US915, apropiada para Ecuador según ARCOTEL.
+- HMI con cuatro perfiles de usuario: Agricultor, Jefe de planta, Técnico LoRa y Administrador.
+- Modo dual de operación: simulado y real, con datos del ensayo complementario.
+- Sistema híbrido de análisis: reglas heurísticas cuantitativas más Qwen 2.5 vía Ollama.
+- Alarmas diferenciadas por dominio: proceso y comunicación separadas por rol.
+- Trazabilidad académica: cada recomendación cita el criterio cuantitativo que la justifica.
+- Diseño HMI bajo norma ISA-101 de alto desempeño.
 
 ## Stack técnico
 
@@ -46,6 +41,7 @@ Sistema de monitoreo diseñado para supervisar el proceso de fermentación del c
 | Banda LoRa | US915 |
 
 ## Estructura del repositorio
+
 tic-monitoreo-cacao-lora/
 ├── docs/           Documentación del sistema
 ├── node-red/       Flow completo de Node-RED
@@ -55,7 +51,6 @@ tic-monitoreo-cacao-lora/
 ├── diagramas/      Diagramas de arquitectura y flujo
 ├── capturas/       Screenshots del HMI en operación
 └── documento/      Documento final del TIC
-
 ## Ensayo complementario
 
 Como mecanismo auxiliar para enriquecer la validación del HMI con perfiles térmicos realistas, se ejecutó un ensayo de captura de datos en Santo Domingo de los Tsáchilas, del 31 de mayo al 6 de junio de 2026. Este ensayo no forma parte del alcance del TIC; su propósito fue únicamente alimentar el modo Real del HMI con registros de una fermentación real.
@@ -89,7 +84,7 @@ Detalles en `docs/manual_instalacion.md`.
 | Técnico LoRa | tecnico | tecnico123 |
 | Administrador | admin | admin123 |
 
-> Estas credenciales son solo para propósitos de demostración académica.
+Estas credenciales son solo para propósitos de demostración académica.
 
 ## Licencia
 
