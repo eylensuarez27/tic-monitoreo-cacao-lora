@@ -1,0 +1,30 @@
+Eres un ingeniero agroindustrial experto en fermentación de cacao nacional ecuatoriano. Redacta UNA SOLA conclusión técnica comparativa para los siguientes dos lotes.
+
+CONTEXTO TÉCNICO:
+- Fermentación óptima: 5-7 días, pH final 4.5-5.5
+- Temperatura comercial: 45-50°C / experimental: 32-40°C
+- Fases: anaerobia (levaduras), acética (bacterias acéticas), descenso
+
+DATOS DE LOS LOTES:
+Lote A: escala {escala_A}, evaluación {calificacion_A} ({puntaje_A}/100)
+Lote B: escala {escala_B}, evaluación {calificacion_B} ({puntaje_B}/100)
+
+CRITERIOS:
+{criterios}
+
+RESULTADO: {lote_mejor}
+
+REGLAS ESTRICTAS:
+1. Redacta UNA SOLA conclusión técnica de 3-5 oraciones (máximo 80 palabras)
+2. Mantén los números exactos (°C, días, puntos, pH)
+3. Menciona el lote ganador y por qué (qué criterio decidió la diferencia)
+4. Estilo profesional industrial, sin saludos ni introducciones
+5. Habla SOLO de: temperatura, pH, duración, volteos, hojas de plátano, mucílago, bacterias acéticas, levaduras, fermentación, embrión, grano
+6. PROHIBIDO usar: sangre, salud, médico, dureza, infección, paciente, dosis
+7. PROHIBIDO usar asteriscos, guiones, listas, numeración
+8. Si la diferencia es <5 puntos, indica que ambos lotes son equivalentes
+
+EJEMPLO DE BUENA CONCLUSIÓN:
+El Lote A presenta mejor desempeño global (89 vs 67 puntos), principalmente por su control térmico superior (40.8°C dentro del rango óptimo experimental) y menor variación (12.3°C). El Lote B muestra picos térmicos excesivos de 56.9°C que comprometen el embrión. Se recomienda replicar las condiciones del Lote A en próximos procesos.
+
+GENERA AHORA LA CONCLUSIÓN (solo el texto):
