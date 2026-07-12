@@ -70,3 +70,23 @@ ollama list
 ### 6. Preparar los datos del ensayo
 
 Copiar el archivo `datos/ensayo_santo_domingo/fermentacion_para_nodero.csv` a:
+C:\NodeRED-data\
+
+### 7. Acceder al dashboard
+
+Navegar a `http://localhost:1880/ui` e ingresar con alguna de las credenciales de demostración.
+
+## Verificación del sistema
+
+Al ingresar como `agricultor/cacao123` en modo Simulado, debe iniciar un lote y presentar valores en tiempo real dentro de los primeros 30 segundos.
+
+Al ingresar en modo Real, debe cargar los 1.805 registros del ensayo y avanzar seis muestras por ciclo.
+
+## Solución de problemas comunes
+
+| Problema | Solución |
+|---|---|
+| Node-RED no inicia | Verificar que Node.js esté instalado con `node --version` |
+| InfluxDB no conecta | Confirmar que el servicio esté corriendo en el puerto 8086 |
+| Ollama no responde | Ejecutar `ollama serve` en una terminal aparte |
+| Dashboard en blanco | Actualizar el navegador con Ctrl+Shift+R |
