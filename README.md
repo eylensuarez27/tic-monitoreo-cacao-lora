@@ -75,6 +75,13 @@ Como mecanismo auxiliar para enriquecer la validación del HMI con perfiles tér
 
 Detalles en `docs/manual_instalacion.md`.
 
+## Arranque automático
+
+Para levantar los tres servicios (InfluxDB, Ollama, Node-RED) de una vez, ejecutar:
+scripts/iniciar_todo.bat
+
+Detalles en `scripts/README.md`.
+
 ## Credenciales de demostración
 
 | Rol | Usuario | Contraseña |
